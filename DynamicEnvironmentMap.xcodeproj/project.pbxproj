@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		18278C3320B70CD000CA4C32 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18278C3220B70CD000CA4C32 /* main.cpp */; };
+		18278C3B20B70ED300CA4C32 /* libassimp.4.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C3A20B70ED300CA4C32 /* libassimp.4.1.0.dylib */; };
+		18278C3D20B70F0300CA4C32 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C3C20B70F0300CA4C32 /* libglfw.3.2.dylib */; };
+		18278C3F20B70F2A00CA4C32 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C3E20B70F2A00CA4C32 /* libGLEW.2.1.0.dylib */; };
+		18278C4120B70F5400CA4C32 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C4020B70F5400CA4C32 /* libSDL2-2.0.0.dylib */; };
+		18278C4320B70F5D00CA4C32 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C4220B70F5D00CA4C32 /* GLUT.framework */; };
+		18278C4520B70F6A00CA4C32 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18278C4420B70F6A00CA4C32 /* OpenGL.framework */; };
+		18278C4A20B7112500CA4C32 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18278C4620B7112500CA4C32 /* stb_image.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,16 @@
 /* Begin PBXFileReference section */
 		18278C2F20B70CCF00CA4C32 /* DynamicEnvironmentMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicEnvironmentMap; sourceTree = BUILT_PRODUCTS_DIR; };
 		18278C3220B70CD000CA4C32 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18278C3A20B70ED300CA4C32 /* libassimp.4.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.1.0.dylib; path = ../../../../usr/local/Cellar/assimp/4.1.0/lib/libassimp.4.1.0.dylib; sourceTree = "<group>"; };
+		18278C3C20B70F0300CA4C32 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		18278C3E20B70F2A00CA4C32 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		18278C4020B70F5400CA4C32 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.7/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		18278C4220B70F5D00CA4C32 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		18278C4420B70F6A00CA4C32 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		18278C4620B7112500CA4C32 /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		18278C4720B7112500CA4C32 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		18278C4820B7112500CA4C32 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		18278C4920B7112500CA4C32 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18278C4520B70F6A00CA4C32 /* OpenGL.framework in Frameworks */,
+				18278C4320B70F5D00CA4C32 /* GLUT.framework in Frameworks */,
+				18278C4120B70F5400CA4C32 /* libSDL2-2.0.0.dylib in Frameworks */,
+				18278C3F20B70F2A00CA4C32 /* libGLEW.2.1.0.dylib in Frameworks */,
+				18278C3D20B70F0300CA4C32 /* libglfw.3.2.dylib in Frameworks */,
+				18278C3B20B70ED300CA4C32 /* libassimp.4.1.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +66,7 @@
 			children = (
 				18278C3120B70CD000CA4C32 /* DynamicEnvironmentMap */,
 				18278C3020B70CCF00CA4C32 /* Products */,
+				18278C3920B70ED300CA4C32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +81,34 @@
 		18278C3120B70CD000CA4C32 /* DynamicEnvironmentMap */ = {
 			isa = PBXGroup;
 			children = (
+				18278C4B20B7240B00CA4C32 /* resources */,
+				18278C4820B7112500CA4C32 /* Camera.h */,
+				18278C4720B7112500CA4C32 /* Shader.h */,
+				18278C4620B7112500CA4C32 /* stb_image.cpp */,
+				18278C4920B7112500CA4C32 /* stb_image.h */,
 				18278C3220B70CD000CA4C32 /* main.cpp */,
 			);
 			path = DynamicEnvironmentMap;
+			sourceTree = "<group>";
+		};
+		18278C3920B70ED300CA4C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18278C4420B70F6A00CA4C32 /* OpenGL.framework */,
+				18278C4220B70F5D00CA4C32 /* GLUT.framework */,
+				18278C4020B70F5400CA4C32 /* libSDL2-2.0.0.dylib */,
+				18278C3E20B70F2A00CA4C32 /* libGLEW.2.1.0.dylib */,
+				18278C3C20B70F0300CA4C32 /* libglfw.3.2.dylib */,
+				18278C3A20B70ED300CA4C32 /* libassimp.4.1.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18278C4B20B7240B00CA4C32 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18278C3320B70CD000CA4C32 /* main.cpp in Sources */,
+				18278C4A20B7112500CA4C32 /* stb_image.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +283,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/assimp/4.1.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +299,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/assimp/4.1.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
