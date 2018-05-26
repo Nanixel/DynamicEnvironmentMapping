@@ -42,6 +42,19 @@
 		18278C4720B7112500CA4C32 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 		18278C4820B7112500CA4C32 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
 		18278C4920B7112500CA4C32 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		18278C4C20B72A1D00CA4C32 /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		18278C4D20B72A1D00CA4C32 /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		18278C4E20B72A1D00CA4C32 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		18278C4F20B72A1D00CA4C32 /* bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom.jpg; sourceTree = "<group>"; };
+		18278C5020B72A1D00CA4C32 /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		18278C5120B72A1D00CA4C32 /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		18278C5220B72E7100CA4C32 /* SkyboxVertex.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = SkyboxVertex.glsl; sourceTree = "<group>"; };
+		18278C5320B72E7F00CA4C32 /* SkyboxFragment.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = SkyboxFragment.glsl; sourceTree = "<group>"; };
+		18278C5520B7383700CA4C32 /* Vertex.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vertex.glsl; sourceTree = "<group>"; };
+		18278C5620B7384300CA4C32 /* Fragment.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fragment.glsl; sourceTree = "<group>"; };
+		18278C5720B7769100CA4C32 /* BaseVertex.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = BaseVertex.glsl; sourceTree = "<group>"; };
+		18278C5820B776BF00CA4C32 /* BaseFragment.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = BaseFragment.glsl; sourceTree = "<group>"; };
+		18278C5920B7788D00CA4C32 /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,7 @@
 		18278C3120B70CD000CA4C32 /* DynamicEnvironmentMap */ = {
 			isa = PBXGroup;
 			children = (
+				18278C5420B7380700CA4C32 /* shaders */,
 				18278C4B20B7240B00CA4C32 /* resources */,
 				18278C4820B7112500CA4C32 /* Camera.h */,
 				18278C4720B7112500CA4C32 /* Shader.h */,
@@ -107,8 +121,28 @@
 		18278C4B20B7240B00CA4C32 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				18278C5920B7788D00CA4C32 /* marble.jpg */,
+				18278C4E20B72A1D00CA4C32 /* back.jpg */,
+				18278C4F20B72A1D00CA4C32 /* bottom.jpg */,
+				18278C4D20B72A1D00CA4C32 /* front.jpg */,
+				18278C5020B72A1D00CA4C32 /* left.jpg */,
+				18278C5120B72A1D00CA4C32 /* right.jpg */,
+				18278C4C20B72A1D00CA4C32 /* top.jpg */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		18278C5420B7380700CA4C32 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				18278C5320B72E7F00CA4C32 /* SkyboxFragment.glsl */,
+				18278C5220B72E7100CA4C32 /* SkyboxVertex.glsl */,
+				18278C5520B7383700CA4C32 /* Vertex.glsl */,
+				18278C5620B7384300CA4C32 /* Fragment.glsl */,
+				18278C5720B7769100CA4C32 /* BaseVertex.glsl */,
+				18278C5820B776BF00CA4C32 /* BaseFragment.glsl */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
